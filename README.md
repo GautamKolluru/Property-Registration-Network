@@ -36,16 +36,21 @@ The government can utilise the feature set of a blockchain to reduce the difficu
 
 > ####cd /test-network/
 
-> -To create the network and setup peers and orderers. Run this command
+> - To create the network and setup peers and orderers. Run this command
     ./network.sh up
  
-> -create the channel
+> - Create the channel
     ./network.sh createChannel
-> -deploy the chaincode
-  ./network.sh deployCC -ccn regnet -ccl javascript -ccp chaincode -ccv 1 -ccs 1 -cci instantiate -ccep "OR('Org1MSP.peer','Org2MSP.peer')"
+    
+> - Deploy the chaincode
+     ./network.sh deployCC -ccn regnet -ccl javascript -ccp chaincode -ccv 1 -ccs 1 -cci instantiate -ccep "OR('Org1MSP.peer','Org2MSP.peer')"
 
-> -Check now your chaincode containers are up and running by typing
+> - Check now your chaincode containers are up and running by typing
      docker ps -a
 
+
+-> Smart contract is available under chaincode folder
+-> Build a rest api to interact with smart contract available under application folder 
+     API Collection: https://www.getpostman.com/collections/4231ca91475f871d4a55
 
 
