@@ -34,7 +34,7 @@ The government can utilise the feature set of a blockchain to reduce the difficu
 
 **Steps Need To Follow To Start Network**
 
-> ####cd /test-network/
+>   cd /test-network/
 
 > - To create the network and setup peers and orderers. Run this command
     ./network.sh up
