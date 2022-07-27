@@ -49,8 +49,8 @@ The government can utilise the feature set of a blockchain to reduce the difficu
      docker ps -a
 
 
--> Smart contract is available under chaincode folder
--> Build a rest api to interact with smart contract available under application folder 
+ > - Smart contract is available under chaincode folder<br>
+> - Build a rest api to interact with smart contract available under application folder <br>
      API Collection: https://www.getpostman.com/collections/4231ca91475f871d4a55
 
 
