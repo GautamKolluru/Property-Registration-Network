@@ -6,7 +6,7 @@ Welcome to the course project on ‘Hyperledger Fabric’. As part of this proje
 
 Property registration is the process through which you register the documents related to a property of yours with legal entities. For instance, when you purchase a flat directly from a builder, property registration gives you the right to legally own, use or dispose of that property. When you have a legal ownership title over a property, there is a low likelihood of fraud or misappropriation.
 
-<u>**Need for Property Registration**</u>
+<u>Need for Property Registration</u>
 
 Property registration is required for maintaining ownership of land/property deeds. There are many reasons why you should get your property registered:
 
