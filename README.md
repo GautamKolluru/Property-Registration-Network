@@ -32,6 +32,20 @@ Blockchain is an immutable distributed ledger that is shared with everyone prese
 The government can utilise the feature set of a blockchain to reduce the difficulties faced in the traditional property registration process. A distributed ledger can be set up among the buyer, seller, bank, registration authority and notary. Property details can be stored in the blockchain and accessed from it, and these details are immutable, meaning they cannot be altered by anybody.
 
 
+**Steps Need To Follow To Start Network**
+
+> ####cd /test-network/
+
+> -To create the network and setup peers and orderers. Run this command
+    ./network.sh up
+ 
+> -create the channel
+    ./network.sh createChannel
+> -deploy the chaincode
+  ./network.sh deployCC -ccn regnet -ccl javascript -ccp chaincode -ccv 1 -ccs 1 -cci instantiate -ccep "OR('Org1MSP.peer','Org2MSP.peer')"
+
+> -Check now your chaincode containers are up and running by typing
+     docker ps -a
 
 
 
