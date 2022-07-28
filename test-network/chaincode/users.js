@@ -62,7 +62,7 @@ class UsersContract extends Contract {
       Email: emailId,
       PhoneNumber: phoneNum,
       AadharNumber: aadharNum,
-      CreatedAt: new Date(),
+      CreatedAt: ctx.stub.getTxTimestamp(),
       Status: "requested",
     }
     /*This statment is used to update ledger with new data **/
